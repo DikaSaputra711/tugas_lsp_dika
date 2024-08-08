@@ -16,7 +16,7 @@
 
     <section class="relative bg-blue-500 text-white text-center py-20 rounded-md">
     <div class="inset-0 flex items-center justify-center bg-black bg-opacity-50">
-        <div class="bg-white text-blue-500 p-8 rounded-md shadow-lg max-w-lg mx-4">
+        <div class="bg-white text-black p-8 rounded-md shadow-lg max-w-lg mx-4">
             <h1 class="text-6xl font-bold ">BackBurner</h1>
             <h2 class="text-4xl font-bold mb-4">University</h2>
             <h3 class="text-lg mb-2">Pendaftaran Online</h3>

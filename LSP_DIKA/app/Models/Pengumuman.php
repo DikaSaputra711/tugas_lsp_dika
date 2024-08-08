@@ -9,10 +9,8 @@ class Pengumuman extends Model
 {
     use HasFactory;
 
-    // Tentukan nama tabel yang digunakan oleh model ini
     protected $table = 'pengumuman';
 
-    // Tentukan kolom-kolom yang dapat diisi (fillable)
     protected $fillable = [
         'judul',
         'keterangan',
@@ -24,6 +22,5 @@ class Pengumuman extends Model
 
     ];
 
-    // Jika Anda menggunakan timestamp, pastikan untuk mengatur $timestamps menjadi true
-    public $timestamps = true; // Default, bisa dihilangkan jika tidak ingin menggunakan timestamps
+    public $timestamps = true; 
 }
