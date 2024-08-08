@@ -21,7 +21,7 @@
         <div class="space-y-6">
             @foreach($pengumuman as $item)
                 <div class="bg-white border border-gray-200 rounded-lg shadow-md p-4 relative">
-                    <h2 class="text-xl font-semibold mb-2">{{ $item->judul }}</h2>
+                    <h2 class="text-xl font-asemibold mb-2">{{ $item->judul }}</h2>
                     <p class="text-gray-700 mb-2 text-base">{{ $item->keterangan }}</p>
                     <p class="text-gray-500 text-sm">{{ $item->tanggal->format('d-m-Y') }}</p>
 

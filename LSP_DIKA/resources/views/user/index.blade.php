@@ -75,11 +75,7 @@
                             </td>
                             
                             <td class="px-6 py-4 border-b">
-                                @if($data->bukti_pembayaran)
-                                    <a href="{{ asset('storage/' . $data->bukti_pembayaran) }}" class="text-blue-600 hover:underline" target="_blank">Lihat Bukti</a>
-                                @else
-                                    <span class="text-red-500">Belum Upload</span>
-                                @endif
+                                <img src="{{ asset('storage/' . $data->bukti_pembayaran) }}" alt="Image" class="rounded-lg w-64" style="box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.25);">
                             </td>
                         </tr>
                     @endforeach

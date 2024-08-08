@@ -11,11 +11,11 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                @if($pendaftar->foto_profile)
-                    <div class="mb-4 md:col-span-2 flex justify-center">
-                        <img src="{{ asset('storage/foto_profiles/' . $pendaftar->foto_profile) }}" alt="Foto Profil" class="w-32 h-32 object-cover rounded-full border border-gray-300">
-                    </div>
-                @endif
+                <!-- @if($pendaftar->foto_profile) -->
+                <div class="mb-4 md:col-span-2 flex justify-center">
+                    <img src="{{ asset('storage/' . $pendaftar->foto_profile) }}" alt="Foto Profil" class="w-32 h-32 object-cover rounded-full border border-gray-300">
+                </div>
+                <!-- @endif -->
                 
                 <div>
                     <h3 class="text-lg font-medium text-gray-700">Nama Depan</h3>
