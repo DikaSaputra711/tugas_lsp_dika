@@ -33,7 +33,7 @@
                         <a href="{{ route('pendaftaran.create') }}" class="px-4 py-2 mb-4 bg-blue-800 text-white rounded-lg hover:bg-teal-700 transition duration-300">
                             {{ __('Go to Pendaftaran') }}
                         </a>
-                        <a href="{{ route('pendaftaran.index') }}" class="px-4 py-2 mb-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300 mx-2">
+                        <a href="{{ route('pendaftaran.show',Auth::user()->id) }}" class="px-4 py-2 mb-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300 mx-2">
                             {{ __('Lihat Pendaftaran Anda') }}
                         </a>
                     @endif

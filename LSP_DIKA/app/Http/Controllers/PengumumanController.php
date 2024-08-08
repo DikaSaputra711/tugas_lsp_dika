@@ -23,11 +23,11 @@ class PengumumanController extends Controller
     // Menyimpan pengumuman baru ke database
     public function store(Request $request)
     {
-        $request->validate([
-            'judul' => 'required|string|max:255',
-            'keterangan' => 'required|string',
-            'tanggal' => 'required|date',
-        ]);
+        // $request->validate([
+        //     'judul' => 'required|string|max:255',
+        //     'keterangan' => 'required|string',
+        //     'tanggal' => 'required|date',
+        // ]);
 
         Pengumuman::create($request->all());
 

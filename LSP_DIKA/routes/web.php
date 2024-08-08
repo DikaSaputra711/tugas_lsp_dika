@@ -58,7 +58,7 @@ Route::patch('/pendaftaran/{id}/status', [PendaftarController::class, 'updateSta
 
 // Login
 Route::get('/login', function () {
-    return view('login', ["title" => "login"]);
+    return view('auth.login', ["title" => "login"]);
 });
 
 // Lainnya
