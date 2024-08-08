@@ -66,12 +66,8 @@ class RegisteredUserController extends Controller
 
         Auth::login($user);
 
-        // Redirect based on role
-        if ($user->role === 'admin') {
-            return redirect()->route('admin.users.pending');
-        }
-
-        return redirect()->route('dashboard');
+    // Arahkan pengguna ke halaman login jika pendaftaran berhasil
+        return redirect()->route('login')->with('success', 'Akun berhasil dibuat. Silakan login.');
     }
 
     /**

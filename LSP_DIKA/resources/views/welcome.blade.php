@@ -14,8 +14,8 @@
         </div>
     </section> -->
 
-    <section class="relative bg-blue-500 text-white text-center py-20 rounded-md">
-    <div class="inset-0 flex items-center justify-center bg-black bg-opacity-50">
+    <section class="relative bg-blue-300 text-white text-center py-20 rounded-md">
+    <div class="inset-0 flex items-center justify-center bg-white bg-opacity-50">
         <div class="bg-white text-black p-8 rounded-md shadow-lg max-w-lg mx-4">
             <h1 class="text-6xl font-bold ">BackBurner</h1>
             <h2 class="text-4xl font-bold mb-4">University</h2>
@@ -32,8 +32,8 @@
     <!-- About Section -->
     <section id="about_landing_page" class="py-16 bg-white">
         <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-6">Tentang Kampus XYZ</h2>
-            <p class="text-lg mb-4">Kampus XYZ menawarkan berbagai program studi yang dirancang untuk memberikan keterampilan dan pengetahuan yang diperlukan untuk kesuksesan di dunia profesional.</p>
+            <h2 class="text-3xl font-bold mb-6">Tentang Kampus</h2>
+            <p class="text-lg mb-4">Kampus ini menawarkan berbagai program studi yang dirancang untuk memberikan keterampilan dan pengetahuan yang diperlukan untuk kesuksesan di dunia profesional.</p>
             <p class="text-lg">Kami memiliki fasilitas modern, staf pengajar berkualitas, dan program yang terus berkembang untuk memastikan bahwa Anda mendapatkan pendidikan terbaik.</p>
         </div>
     </section>
@@ -42,7 +42,7 @@
     <section id="contact_landing_page" class="py-16 bg-gray-100">
         <div class="container mx-auto text-center">
             <h2 class="text-3xl font-bold mb-6">Kontak Kami</h2>
-            <p class="text-lg">Untuk informasi lebih lanjut, jangan ragu untuk menghubungi kami di email: <a href="mailto:info@kampusxyz.com" class="text-blue-600 hover:underline">info@kampusxyz.com</a></p>
+            <p class="text-lg">Untuk informasi lebih lanjut, jangan ragu untuk menghubungi kami di email: <a href="mailto:info@University.com" class="text-blue-600 hover:underline">info@University.com</a></p>
         </div>
     </section>
 @endsection
